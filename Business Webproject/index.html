@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MobileBoss</title>
+  <link rel="stylesheet" href="static/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2ecc71">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">MobileBoss</h1>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    
+            <!-- Existing nav links -->
+            <a href="pages/profolio.html">Portfolio</a>
+            <a href="https://github.com/VictorMuwaya" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/victor-muwaya-519090356" target="_blank">LinkedIn</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Empowering Ideas with Code</h2>
+      <p>We build mobile apps, websites, and systems that make a difference.</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="service-card">
+        <h3>Mobile App Development</h3>
+        <p>Cross-platform, fast, and beautiful mobile apps for your business.</p>
+      </div>
+      <div class="service-card">
+        <h3>Website Design</h3>
+        <p>Custom, responsive, and SEO-friendly websites for any brand.</p>
+      </div>
+      <div class="service-card">
+        <h3>Software Solutions</h3>
+        <p>Tailored systems for schools, organizations, and startups.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About MobileBoss</h2>
+    <p>MobileBoss is a personal intiative by a Ugandan developer focused on build digital solutions in mobile, web and system software.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 MobileBoss A personal software project. All rights reserved.</p>
+
+        <div class="social-links">
+          <a href="https://wa.me/message/CWBBN5JVUTZZK1" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://github.com/VictorMuwaya" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/victor-muwaya-519090356" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      
+  </footer>
+  <script src="../scripts/script.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js");
+    }
+    </script>
+</body>
+</html>
